@@ -38,7 +38,7 @@ int main ()
 	}
 	
 	//ADD 
-	array3=array1 - array2; 
+	array3=array1 + array2; 
 	
 	//PRINT 
 	cout << "array1   array2   array3" << endl;
