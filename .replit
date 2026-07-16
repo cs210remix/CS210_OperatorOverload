@@ -5,7 +5,6 @@ hidden = ["main", "main-debug", "**/*.o", "**/*.d", ".ccls-cache", "Makefile"]
 
 [debugger.compile]
 command = "clang++ arrayadder.cpp -O0 -g -o main-debug"
-command = ["make", "main-debug"]
 noFileArgs = true
 
 [languages.cpp]
